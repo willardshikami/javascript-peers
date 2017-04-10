@@ -1,6 +1,7 @@
 var user = prompt('What type of movies do you watch?, SCIFI, DRAMA OR HORROR?').toUpperCase();
 
 switch(user){
+//SCIFI codeblock starts here
 case 'SCIFI':
 var matrix = prompt('Have you watched The Matrix?').toUpperCase();
 var starWars = prompt('And have you watched Star Wars?').toUpperCase();
