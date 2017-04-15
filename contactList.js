@@ -10,3 +10,9 @@ var friends = {
              address : ['tomboya', 'kisumu', 'kenya', '84639']}
 
 };  
+
+var list = function(obj) {
+  for(var prop in obj) {
+    console.log(prop);
+  }
+};
