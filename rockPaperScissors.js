@@ -40,6 +40,14 @@ function compare(choice1, choice2){
             return "Scissors Wins";    
         }
     }
+
+    if(choice1 === "Scissors"){
+        if(choice2 === "Rock"){
+            return "Rock Wins"
+        }else{
+            return "Scissors Wins"
+        }
+    }
 }
 
 compare(userChoice, computerChoice);

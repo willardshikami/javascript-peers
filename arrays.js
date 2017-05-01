@@ -12,7 +12,7 @@ numArray.push(values);
 
 //While loop to iterate as it pushes
 while(i < numArray.length){
-    values + i;
+    values += i;
     console.log(values);
     i++
 }
